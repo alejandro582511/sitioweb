@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/pexels-burst-374894.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#encabezado{
+    display: inline-block;
+    width: 100%;
+}
+div#negocio{
+    width: 459px;
+    height: 350px;
+    float: left;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    padding-left: 10px;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 10px;
+}
+div#fondo{
+    background-color: black;
+    width: 880px;
+    height: 350px;
+    float: right;
+}
+section#opciones{
+    list-style: none;
+    display: block;
+    display: flex;
+    margin: 10px;
+}
+button{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(27, 27, 27);
+    margin: 20px;
+    margin-left: 90px;
+}
+a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#redes{
+    float: left;
+    padding-top: 30px;
+}
+div#direc{
+    float: right;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+section#textobajo{
+    float: left;
+    margin-bottom: 20px;
+}
+div#texbajo{
+    width: 855px;
+    height: 200px;
+    margin-left: 10px;
+    text-align: justify;
+    padding: 20px;
+    background-color: dodgerblue;
+}
+div#texbajo2{
+    width: 855px;
+    height: 230px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: justify;
+    padding: 20px;
+    background-color: dodgerblue;
+}
+article#abderecha{
+    width: 380px;
+    height: 480px;
+    margin-left: 10px;
+    float: right;
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 20px;
+    align-content: center;
+    background-color: darkgray;
+}
+#abderecha img{
+    padding-left: 80px;
+}
+footer{
+    width: 100%;
+    height: 110px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+#redes a{
+    padding-left: 10px;
+}

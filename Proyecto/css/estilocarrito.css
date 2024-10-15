@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/pexels-burst-374894.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.menu{
+    background-color: red;
+    height: 50px;
+    width: 100%;
+}
+.menus{
+    width: 100%;
+    height: 50px;
+}
+.menus h1{
+    width: 200px;
+    height: 35px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: dodgerblue;
+}
+.menus a{
+    width: 150px;
+    height: 38px;
+    float: right;
+    padding: 0 10px;
+    padding-top: 13px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+.menus a:hover{
+    background-color: black;
+    color: white;
+}
+.nombres{
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+}
+div#nombress{
+    background-color: yellow;
+    width: 527px;
+    height: 300px;
+    float: left;
+    align-content: center;
+    padding-left: 20px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#fondo{
+    width: 800px;
+    height: 300px;
+    float: right;
+}
+div#form{
+    background-color: dodgerblue;
+    border-radius: 20px;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-left: 260px;
+    width: 700px;
+    height: 980px;
+    padding-left:50px ;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 15px black;
+}
+#form h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+#form h2{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+input{
+    margin-top: 10px;
+    margin-left: 60px;
+    height: 20px;
+}
+button{
+    background-color: black;
+    color: white;
+    width: 350px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-style: none;
+    box-shadow: 0px 0px 15px blue;
+}
+footer{
+    width: 100%;
+    height: 110px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+#direc h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#redes a{
+    padding-left: 10px;
+}
+div#redes{
+    float: left;
+    padding-top: 30px;
+}
+div#direc{
+    float: right;
+    padding-top: 15px;
+    padding-right: 10px;
+}
